@@ -1,0 +1,67 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "important_notes_not_agree": "Please accept the risk notice.",
+            "invalid_auth": "Invalid authentication",
+            "mqtt_not_connected": "MQTT is not connected.",
+            "network_error": "Network error, try again later.",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "API Key",
+                    "base_url": "Base URL (optional)",
+                    "important_notes": "I have read and accept the Flyme risk notice.",
+                    "model": "Model",
+                    "name": "Name",
+                    "provider": "LLM Provider"
+                },
+                "description": "Configure Flyme Bridge and accept Flyme binding notice: {note_url}",
+                "title": "Flyme Bridge Setup"
+            }
+        }
+    },
+    "options": {
+        "progress": {
+            "wait_for_scanned": "Waiting for QR code scan. Valid for {time_out}{time_unit}. ![QR](data:image/png;base64,{img_base64})"
+        },
+        "step": {
+            "qrcode_complete": {
+                "description": "{message}",
+                "title": "Binding Complete"
+            },
+            "qrcode_scanned": {
+                "description": "{message}",
+                "title": "Binding Result"
+            },
+            "qrcode_show": {
+                "description": "Please scan this QR code in Flyme app. ![QR](data:image/png;base64,{img_base64})",
+                "title": "Scan QR Code"
+            },
+            "report_devices": {
+                "description": "{message}",
+                "title": "Report Devices"
+            },
+            "status": {
+                "description": "Current MQTT status: {mqtt_status}",
+                "title": "MQTT Status"
+            }
+        }
+    },
+    "selector": {
+        "provider": {
+            "options": {
+                "anthropic": "Anthropic",
+                "deepseek": "DeepSeek",
+                "minimax": "MiniMax",
+                "moonshot": "Moonshot/Kimi",
+                "openai": "OpenAI",
+                "openrouter": "OpenRouter",
+                "qwen": "Qwen (Alibaba)",
+                "volcengine": "VolcEngine"
+            }
+        }
+    }
+}

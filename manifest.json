@@ -1,0 +1,23 @@
+{
+  "domain": "flyme_bridge",
+  "name": "Flyme Bridge",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [
+    "conversation"
+  ],
+  "documentation": "https://www.home-assistant.io/integrations/",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "quality_scale": "bronze",
+  "single_config_entry": true,
+  "version": "0.1.0",
+  "requirements": [
+    "paho-mqtt>=1.6.1",
+    "qrcode[pil]",
+    "async-timeout",
+    "aiofiles",
+    "protobuf>=4.24.0",
+    "websockets>=11.0"
+  ]
+}

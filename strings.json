@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Flyme Bridge Setup",
+        "description": "Configure Flyme Bridge and accept Flyme binding notice: {note_url}",
+        "data": {
+          "name": "Name",
+          "important_notes": "I have read and accept the Flyme risk notice."
+        }
+      }
+    },
+    "error": {
+      "important_notes_not_agree": "Please accept the risk notice.",
+      "network_error": "Network error, try again later.",
+      "mqtt_not_connected": "MQTT is not connected."
+    }
+  },
+  "options": {
+    "step": {
+      "qrcode_show": {
+        "title": "Scan QR Code",
+        "description": "Please scan this QR code in Flyme app. ![QR](data:image/png;base64,{img_base64})"
+      },
+      "status": {
+        "title": "MQTT Status",
+        "description": "Current MQTT status: {mqtt_status}"
+      },
+      "report_devices": {
+        "title": "Report Devices",
+        "description": "{message}"
+      },
+      "qrcode_scanned": {
+        "title": "Binding Result",
+        "description": "{message}"
+      },
+      "qrcode_complete": {
+        "title": "Binding Complete",
+        "description": "{message}"
+      }
+    },
+    "progress": {
+      "wait_for_scanned": "Waiting for QR code scan. Valid for {time_out}{time_unit}. ![QR](data:image/png;base64,{img_base64})"
+    }
+  }
+}

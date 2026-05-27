@@ -1,0 +1,8 @@
+{
+  "name": "flyme_bridge",
+  "render_readme": true,
+  "country": ["US", "GB", "CN"],
+  "homeassistant": "2023.1.0",
+  "hacs": "1.6.0",
+  "persistent_directory": "userdata"
+}

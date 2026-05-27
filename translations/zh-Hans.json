@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Flyme Bridge 配置",
+        "description": "配置 Flyme Bridge 并确认 Flyme 绑定风险说明：{note_url}",
+        "data": {
+          "name": "名称",
+          "provider": "LLM 提供商",
+          "api_key": "API Key",
+          "model": "模型",
+          "base_url": "Base URL（可选）",
+          "important_notes": "我已阅读并接受 Flyme 绑定风险说明。"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "连接失败",
+      "invalid_auth": "大模型认证失败",
+      "unknown": "未知错误",
+      "important_notes_not_agree": "请先确认风险说明。",
+      "network_error": "网络异常，请稍后重试。",
+      "mqtt_not_connected": "MQTT 未连接。"
+    }
+  }
+}
